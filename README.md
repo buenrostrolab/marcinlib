@@ -5,6 +5,6 @@ Writing a [Rcpp package](http://dirk.eddelbuettel.com/code/rcpp/Rcpp-package.pdf
 
 ## Install
 ```
-devtools::install_github("buenrostrolab/macrinlib")
+devtools::install_github("buenrostrolab/marcinlib")
 ```
 
