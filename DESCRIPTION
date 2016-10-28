@@ -10,12 +10,10 @@ Authors@R: c( person("Marcin", "Tabaka", email =
 Maintainer: Marcin Tabaka <mtabaka@broadinstitute.org>
 Author: Marcin Tabaka [aut, cre], Caleb Lareau [aut]
 Description: A suite of tools for analyzing scRNAseq data.
-Imports: methods, Rcpp (>= 0.12.7), GenomicRanges
+Imports: methods, Rcpp (>= 0.12.7), GenomicRanges, GenomeInfoDb
 LinkingTo: Rcpp
 License: MIT + file LICENSE
 LazyData: TRUE
 Suggests: knitr, rmarkdown, testthat
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
-biocViews: Preprocessing, QualityControl, Visualization, DataImport,
-    DataRepresentation, GO

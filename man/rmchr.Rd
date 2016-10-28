@@ -28,9 +28,7 @@ while the other has '1'. We can remove 'chr' from the first object
 }
 \examples{
 library(GenomicRanges)
-regA <- GRanges(c('1'),IRanges(c(36200000),c(36300000)))
-addchr(regA)
-regA
+regA <- GRanges(c('chr1'),IRanges(c(36200000),c(36300000)))
 rmchr(regA)
 regA
 }

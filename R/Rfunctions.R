@@ -14,13 +14,11 @@
 #'
 #' @examples
 #' library(GenomicRanges)
-#' regA <- GRanges(c('1'),IRanges(c(36200000),c(36300000)))
-#' addchr(regA)
-#' regA
+#' regA <- GRanges(c('chr1'),IRanges(c(36200000),c(36300000)))
 #' rmchr(regA)
 #' regA
-
 #' @import GenomicRanges
+#' @importFrom GenomeInfoDb seqlevels
 #' 
 #' @export
 setGeneric(name = "rmchr", def = function(dlo) standardGeneric("rmchr"))

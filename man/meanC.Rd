@@ -10,7 +10,7 @@ meanC(x)
 \item{x}{Vector}
 }
 \value{
-Returns a number
+Returns a mean associated with a numeric vector.
 }
 \description{
 Computes mean of numeric vector
