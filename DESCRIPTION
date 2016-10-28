@@ -1,0 +1,21 @@
+Package: marcinlib
+Type: Package
+Title: Misc. Functions
+Version: 0.1.0
+Date: 2016-10-28
+Authors@R: c( person("Marcin", "Tabaka", email =
+    "mtabaka@broadinstitute.org", role = c("aut", "cre")),
+    person("Caleb", "Lareau", email = "caleblareau@g.harvard.edu",
+    role = "aut") )
+Maintainer: Marcin Tabaka <mtabaka@broadinstitute.org>
+Author: Marcin Tabaka [aut, cre], Caleb Lareau [aut]
+Description: A suite of tools for analyzing scRNAseq data.
+Imports: methods, Rcpp (>= 0.12.7), GenomicRanges
+LinkingTo: Rcpp
+License: MIT + file LICENSE
+LazyData: TRUE
+Suggests: knitr, rmarkdown, testthat
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
+biocViews: Preprocessing, QualityControl, Visualization, DataImport,
+    DataRepresentation, GO
